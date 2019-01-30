@@ -23,11 +23,11 @@ public class AttributeUI : MonoBehaviour {
 
     [ContextMenu("角色属性总览")]
     public void Init(RoleAttribute _roleAttribute) {      
-        for (int i = 0; i < _roleAttribute.attribute.Length; i++)
-        {
-            AttributeAndText AttributeAndText1 = new AttributeAndText();
-            AttributeAndText1.name = _roleAttribute.attribute[i].attributeName;
-            attributeAndText.Add(AttributeAndText1);
-        }
+        //for (int i = 0; i < _roleAttribute.attribute.Length; i++)
+        //{
+        //    AttributeAndText AttributeAndText1 = new AttributeAndText();
+        //    AttributeAndText1.name = _roleAttribute.attribute[i].attributeName;
+        //    attributeAndText.Add(AttributeAndText1);
+        //}
     }
 }
